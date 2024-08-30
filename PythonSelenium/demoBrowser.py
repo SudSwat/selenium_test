@@ -46,6 +46,7 @@ driver.find_element(By.XPATH,"(//input[@type='text'])[3]").send_keys(" I can do 
 driver.find_element(By.XPATH,"(//input[@type='text'])[3]").clear()
 
 
+driver.close()
 
 
 
