@@ -1,3 +1,4 @@
+
 from selenium import webdriver
 import time
 
@@ -29,6 +30,5 @@ for country in dynamicDropdown:
 time.sleep(1)
 
 assert (driver.find_element(By.XPATH, "//input[@id='autocomplete']").get_attribute("value")) == "India"
-
 
 
